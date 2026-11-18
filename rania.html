@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rania Coffee Shop · BEN JEMAA GROUPE</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f1de;--card:#fbf9ec;--ink:#0f2a1c;--mute:#4d6354;--gold:#9a6b00;--line:#cfd6b8;--btn:#14532d;--btnt:#f5e7b4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0c2218;--card:#12301f;--ink:#f3ecd0;--mute:#a9bfa8;--gold:#e0b44a;--line:#24503a;--btn:#e0b44a;--btnt:#0c2218;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0c2218;--card:#12301f;--ink:#f3ecd0;--mute:#a9bfa8;--gold:#e0b44a;--line:#24503a;--btn:#e0b44a;--btnt:#0c2218;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.6 "Source Sans 3",system-ui,sans-serif}
+main{max-width:640px;margin:0 auto;padding:0 20px 48px}
+h1,h2{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;line-height:1.1;margin:0}
+h1{font-size:2.4rem}h2{font-size:1.8rem;margin-bottom:10px}
+header{text-align:center;padding:24px 0 8px}
+header img{width:min(78%,300px);border-radius:12px;display:block;margin:0 auto 14px;background:#fff}
+.tag{color:var(--mute);margin:8px 0 0}
+section{padding:30px 0;border-top:1px solid var(--line)}
+.prod{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.prod h2{color:var(--gold)}
+.sizes{display:flex;gap:10px;margin:14px 0 0;flex-wrap:wrap}
+.sizes span{border:1px solid var(--gold);border-radius:999px;padding:4px 16px;font-weight:600}
+form{display:grid;gap:12px;margin-top:14px}
+label{font-weight:600;font-size:.95rem}
+input,select{width:100%;font:inherit;padding:12px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
+button{font:600 1rem "Source Sans 3",system-ui,sans-serif;padding:14px;border:0;border-radius:8px;background:var(--btn);color:var(--btnt);cursor:pointer}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+#msg{min-height:1.4em;color:var(--mute);margin:0}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.pimg{width:100%;border-radius:10px;display:block;margin:0 0 14px;background:#fff}
+.grid{display:grid;gap:12px;margin-top:14px}
+.card{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
+.card h3{font-family:"Cormorant Garamond",Georgia,serif;font-size:1.4rem;margin:0 0 4px;color:var(--gold)}
+.card p{margin:0;color:var(--mute)}
+a.card:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+footer{text-align:center;color:var(--mute);font-size:.9rem;padding-top:24px}
+
+.back{display:inline-block;margin:18px 0 0;color:var(--gold);font-weight:600;text-decoration:none}
+.soon{color:var(--mute)}
+</style>
+</head>
+<body>
+<main>
+<a class="back" href="index.html">&larr; BEN JEMAA GROUPE</a>
+<h1 style="margin-top:12px">Rania Coffee Shop</h1>
+<section><p>Our coffee shop.</p><p class="soon">More details coming soon.</p></section>
+<footer>BEN JEMAA GROUPE</footer>
+</main>
+</body>
+</html>
