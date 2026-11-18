@@ -1,0 +1,5 @@
+Serve a plain-text file at https://nitrofriis.github.io/validation-key.txt whose entire content is:
+
+d2e33f01064d133de469d2e261c478f2b7ff68b4a2b20fe23878e22d38fcd10ffbdcac28f64f7178e2fa797e3657cc350007da388b3a858674fbbae9f8e6a1ea
+
+Then redeploy the app so Pi can verify that I own this domain.
